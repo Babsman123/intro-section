@@ -1,0 +1,125 @@
+nav .icon-Goto{
+    margin-top: 25px;
+    padding: 10px 0px;
+}
+nav .icon-Goto li a:link:hover,
+nav .icon-Goto li a:visited:hover{
+    color: hsl(0, 0%, 8%);
+}
+nav .icon-Goto li a:link,
+nav .icon-Goto li a:visited{
+    color: hsl(0, 0%, 41%);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+nav .icon-Goto li a img{
+    margin: 0px 5px;
+}
+nav .icon-Goto li ul li{
+    padding: 5px 10px;
+    margin-left: 15px;
+}
+nav .icon-Goto li ul li a img{
+    margin: 0px 15px;
+}
+.nav-features{
+    display: none;
+}
+.nav-feature{
+    display: inline-block;
+}
+.arrow-up{
+    display: none;
+}
+.arrowup{
+    display: inline-block;
+}
+.arrowdown{
+    display: none;
+}
+.nav-company{
+    display: none;
+}
+.close-company{
+    display: inline-block;
+}
+.openarrowup{
+    display: none;
+}
+.openarrow-up{
+    display: inline-block;
+}
+.closearrow-down{
+    display: none;
+}
+
+.signup{
+    padding: 5px 0px;
+    text-align: center;
+}
+.signup li{
+    padding: 10px 0px;
+}
+.signup .login{
+    display: block;
+    width: 100%;
+    color: hsl(0, 0%, 41%);
+    font-weight: bold;
+}
+.signup .register{
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 10px;
+    display: block;
+    padding: 5px 10px;
+    color: hsl(0, 0%, 41%);
+    font-weight: bold;
+}
+.signup .login:hover, 
+.signup .register:hover{
+    color: black;
+    transition: .2s ease-in-out;
+    border-color: hsl(0, 0%, 8%);
+}
+@media (min-width: 768px){
+    nav .icon-Goto{
+        margin-top: 0px;
+        margin-left: 30px;
+        padding: 0px 20px;
+        display: flex;
+    }   
+    nav .icon-Goto li{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    nav .icon-Goto li ul li{
+        padding: 5px 10px;
+        margin-left: 0px;
+    }
+    .nav-feature{
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+        margin-left: -80px;
+    }
+    .nav-company{
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    }
+    .signup{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 0px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .signup li{
+        padding: 0px 0px;
+        margin-right: 15px;
+    }
+    .signup .register{
+        padding: 5px 20px;
+    }
+}
