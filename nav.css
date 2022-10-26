@@ -10,7 +10,6 @@ nav .icon-Goto li a:link,
 nav .icon-Goto li a:visited{
     color: hsl(0, 0%, 41%);
     display: block;
-    font-weight: bold;
     margin-bottom: 5px;
 }
 nav .icon-Goto li a img{
@@ -65,7 +64,6 @@ nav .icon-Goto li ul li a img{
     display: block;
     width: 100%;
     color: hsl(0, 0%, 41%);
-    font-weight: bold;
 }
 .signup .register{
     border: 2px solid hsl(0, 0%, 41%);
@@ -73,7 +71,6 @@ nav .icon-Goto li ul li a img{
     display: block;
     padding: 5px 10px;
     color: hsl(0, 0%, 41%);
-    font-weight: bold;
 }
 .signup .login:hover, 
 .signup .register:hover{
